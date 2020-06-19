@@ -1,0 +1,54 @@
+/* Navbar */
+
+.nav {
+  background: #3873A6;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.nav-item:hover, .active {
+  background: #3873A6;
+}
+
+
+/* Section */
+
+.row{
+  background-color: #3873A6;
+}
+.col-md-8{
+  background-color: #3873A6 ;
+}
+.lead{
+  color: white;
+}
+.leaf{
+  color: #3873A6;
+}
+.nav-link{
+  background-color: #F2CE1B;
+}
+.nav-item active{
+  background-color: #3873A6;
+}
+.shadow-sm {
+  background-color: #3873A6;
+}
+h2{
+  border-radius: 81px 49px 0px 121px;
+  -moz-border-radius: 81px 49px 0px 121px;
+  -webkit-border-radius: 81px 49px 0px 121px;
+  border: 1px solid #f70000;
+}
+.nav{
+  background-color: #F2CE1B;
+}
+body{
+  background-color: #0D2840;
+  position: inherit;
+}
+header, footer{
+  position: inherit;
+}

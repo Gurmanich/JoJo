@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+	background-color: #0D2840;
+
+}
+
+footer {
+  background-color: #38b6ff;
+}
+
+header {
+
+    background-color: #F2CE1B;
+    text-align: center;
+    padding: 0.5rem;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.pate {
+	position: center;
+}
+.fab fa-youtube {
+	color: #000000;
+}
+
+.carousel a:hover {
+ background: rgba(255, 255, 255, 0.2);
+ background-position: center;
+}
+
+li{
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+ul{
+	margin: 0;
+	text-align: left;
+	text-decoration-color: #000000;
+	display: block;
+    list-style-type: disc;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.cap-painting {
+	background-image: url(img/Anime.jpg);
+	background-color :#0e2426;
+	background-position: 82% 100%;
+	background-size: cover;
+}
+
+.cap {
+	max-height: 100vh;
+    border-top: solid 1px #555;
+}
+
+.nav{
+	padding: 50px;
+	
+}
+
+.view-articles-wall .views-field-nothing-3 {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #AAAAAA;
+    margin-top: 15px;
+}
+
+.div{
+	padding: right 25px;
+	padding: left 25px;
+}
+
+h3{
+	font-family: 'Anton', sans-serif;
+}
+
+p{
+font-family: 'Oswald', sans-serif;
+color: #FFFFFFFF  ; 
+}
+
+/*Дата*/
+div.col-xs-13 {
+	max-height: 100px;
+	line-height: 700px; 
+	width: 210px;
+	color: #000000FF  ; 
+}
+
+div.card.flex-md-row.mb-4.border-light.shadow-sm.h-md-300 {
+	background-color:#3873A6; 
+	width: 720px;
+}
+
+h1, h2, h3, h4{
+	color:#000000FF;
+}
+
+div.card-body.d-flex.flex-column.align-items-start{
+	width: 500px;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #F2CE1B;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}

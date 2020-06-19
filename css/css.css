@@ -1,0 +1,18 @@
+/* Header, footer */
+header, footer {
+  background-color: #000000;
+}
+h1{
+  padding: 5px 15px 5px;
+  margin: 4px 0 20px 4px;
+  color: rgb(158, 2, 2);
+  font-size: 80px;
+}
+
+p{
+  padding: 15px 15px; 
+  margin: 10% 45% 0 10%; 
+  background-color: #864242; 
+  color: #9e7777; 
+  font-size: 20px;
+}
